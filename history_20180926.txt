@@ -1,0 +1,174 @@
+    1  ls -l
+    2  mkdir ManaMape
+    3  ls -l
+    4  rmdir ManaMape/
+    5  ls- l
+    6  ls -l
+    7  mkdir ManaMape
+    8  cd ManaMape/
+    9  mkdir ManaApakshMape
+   10  ls -l
+   11  cd
+   12  ls -l
+   13  cd  ManaMape/
+   14  cd ManaApakshMape/
+   15  pwd
+   16  cd
+   17  rmdir r ManaMape/
+   18  rmdir ManaApakshMape
+   19  cd ManaMape/
+   20  rmdir ManaApakshMape/
+   21  cd
+   22  rmdir ManaMape/
+   23  ls -l
+   24  echo "Teksts"
+   25  teksts
+   26  echo "Teksts"
+   27  echo "Teksts
+
+Teksts
+"
+   28  "Teksts"
+   29  "
+Teksts
+"
+   30  "Teksts\nTeksts\nTeksts"
+   31  -e
+   32  echo -e "Teksts\nTeksts\nTeksts"
+   33  -a
+   34  echo "Teksts" > fails1.txt
+   35  ls -l
+   36  cat fails1.txt
+   37  more fails1.txt
+   38  less fails1.txt
+   39  echo "Papildus teksts" > fails1.txt
+   40  ls -l
+   41  cat fails1.txt
+   42  echo "Teksts" > fails1.txt
+   43  cat fails1.txt
+   44  echo "Papildus teksts" >> fails1.txt
+   45  cat fails1.txt
+   46  ls -l
+   47  nano fails1.txt
+   48  ls -l
+   49  nano fails1.txt
+   50  ls -l
+   51  cmod 530 fails1.txt
+   52  chmod 504 fails1.txt
+   53  ls -l
+   54  echo "Teksts" > fails1.txt
+   55  nano fails1.txt
+   56  ls -l
+   57  echo "Teksts" > ../fails1.txt
+   58  cp fails1.txt fails101.txt
+   59  ls -l
+   60  mv *1*.txt Music/
+   61  ls -l
+   62  cd Music/
+   63  ls -l
+   64  mv fails1.txt ../fails102.txt
+   65  ls -l
+   66  cd
+   67  ls -l
+   68  mv fails102.txt fails103.txt
+   69  ls -l
+   70  mv fails103.txt fails2.txt
+   71  ls -l
+   72  cat fails2.txt
+   73  mv fails3.txt fails2.txt
+   74  ls -l
+   75  ls Music/
+   76  ls -la Music/
+   77  pwd
+   78  rm Music/fails101.txt
+   79  ls -la Music/
+   80  ls -l]
+   81  ls -l
+   82  rm fails*.txt
+   83  ls -l
+   84  whoami
+   85  man rm
+   86  history > history_20180917.txt
+   87  ls -l
+   88  less history
+   89  less history_20180917.txt 
+   90  q
+   91  nano mans_skripts.sh
+   92  ls -l
+   93  cat mans_skripts.sh 
+   94  history
+   95  cat /bin/history
+   96  cat /bin/ls
+   97  history 
+   98  cat /bin/ls
+   99  ls
+  100  echo $PATH
+  101  pwd
+  102  ls -l
+  103  ./mans_skripts.sh
+  104  pwd
+  105  /home/user/mans_skripts.sh
+  106  /home/janis/mans_skripts.sh
+  107  ~/mans_skripts.sh
+  108  chmod 764 mans_skripts.sh 
+  109  ls -l
+  110  echo $PATH
+  111  pwd
+  112  PATH-$PATH:/home/janis
+  113  PATH-$PATH:~
+  114  echo $PATH
+  115  PATH=$PATH:~
+  116  echo $PATH
+  117  ls -l
+  118  mans_skripts.sh 
+  119  ls -l
+  120  mans_skripts.sh 
+  121  git clone https://github/janismuiznieks/RTR105
+  122  sudo apt-get install git
+  123  sudo apt-get install git --fix missing
+  124  sudo apt-get install git -- fix miss
+  125  ping 213.175.92.22
+  126  ping www.google.com
+  127  ping 213.175.92.22
+  128  ping www.google.com
+  129  sudo gedit /etc/resolv.conf
+  130  ping 213.175.92.22
+  131  sudo apt-get install git
+  132  git clone https://github/janismuiznieks/RTR105
+  133  git clone https://github.com/janismuiznieks/RTR105
+  134  ls -l
+  135  mv mans_skripts.sh  RTR105/
+  136  ls
+  137  ls -l
+  138  RTR105/ ls -l
+  139  cd RTR105/
+  140  ls -l
+  141  nano  readme.md
+  142  pwd
+  143  nano  readme.md
+  144  cd
+  145  RTR105/
+  146  nano readme.md
+  147  ls -l
+  148  RTR105/
+  149  ls -l
+  150  RTR105/
+  151  ~
+  152  pwd
+  153  RTR105/
+  154  pwd
+  155  RTR105
+  156  cd RTR105/
+  157  ls -l
+  158  nano readme.md
+  159  pwd
+  160  nano README.md
+  161  mddir
+  162  history
+  163  nano README.md
+  164  nano  git-upload
+  165  ls -l
+  166  chmod 764 git-upload
+  167  ls -l
+  168  history
+  169  history > history_20180926.txt
