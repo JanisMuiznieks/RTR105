@@ -1,0 +1,91 @@
+    1  ls -l
+    2  mkdir ManaMape
+    3  ls -l
+    4  rmdir ManaMape/
+    5  ls- l
+    6  ls -l
+    7  mkdir ManaMape
+    8  cd ManaMape/
+    9  mkdir ManaApakshMape
+   10  ls -l
+   11  cd
+   12  ls -l
+   13  cd  ManaMape/
+   14  cd ManaApakshMape/
+   15  pwd
+   16  cd
+   17  rmdir r ManaMape/
+   18  rmdir ManaApakshMape
+   19  cd ManaMape/
+   20  rmdir ManaApakshMape/
+   21  cd
+   22  rmdir ManaMape/
+   23  ls -l
+   24  echo "Teksts"
+   25  teksts
+   26  echo "Teksts"
+   27  echo "Teksts
+
+Teksts
+"
+   28  "Teksts"
+   29  "
+Teksts
+"
+   30  "Teksts\nTeksts\nTeksts"
+   31  -e
+   32  echo -e "Teksts\nTeksts\nTeksts"
+   33  -a
+   34  echo "Teksts" > fails1.txt
+   35  ls -l
+   36  cat fails1.txt
+   37  more fails1.txt
+   38  less fails1.txt
+   39  echo "Papildus teksts" > fails1.txt
+   40  ls -l
+   41  cat fails1.txt
+   42  echo "Teksts" > fails1.txt
+   43  cat fails1.txt
+   44  echo "Papildus teksts" >> fails1.txt
+   45  cat fails1.txt
+   46  ls -l
+   47  nano fails1.txt
+   48  ls -l
+   49  nano fails1.txt
+   50  ls -l
+   51  cmod 530 fails1.txt
+   52  chmod 504 fails1.txt
+   53  ls -l
+   54  echo "Teksts" > fails1.txt
+   55  nano fails1.txt
+   56  ls -l
+   57  echo "Teksts" > ../fails1.txt
+   58  cp fails1.txt fails101.txt
+   59  ls -l
+   60  mv *1*.txt Music/
+   61  ls -l
+   62  cd Music/
+   63  ls -l
+   64  mv fails1.txt ../fails102.txt
+   65  ls -l
+   66  cd
+   67  ls -l
+   68  mv fails102.txt fails103.txt
+   69  ls -l
+   70  mv fails103.txt fails2.txt
+   71  ls -l
+   72  cat fails2.txt
+   73  mv fails3.txt fails2.txt
+   74  ls -l
+   75  ls Music/
+   76  ls -la Music/
+   77  pwd
+   78  rm Music/fails101.txt
+   79  ls -la Music/
+   80  ls -l]
+   81  ls -l
+   82  rm fails*.txt
+   83  ls -l
+   84  whoami
+   85  man rm
+   86  history > history_20180917.txt
