@@ -19,3 +19,11 @@ vars() izprinte f-ju iespejas
 __doc__ dokumente f-ju
 print() izprinte tekstu
 type(..) izprinte datu tipu
+
+< - mazak ka
+<= - mazak ka vai vienads ar
+== - vienads ar
+>= - lielaks par vai vienads ar
+> - lielaks par
+!= - nav vienads
+
