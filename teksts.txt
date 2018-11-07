@@ -1,0 +1,8 @@
+teksts ir uzrakstits ar maziem burtiem
+hello: boys
+hello: girls
+hello: human
+hello: pets
+Janis
+teksts
+Rebco1

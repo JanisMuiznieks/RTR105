@@ -1,0 +1,153 @@
+In [29]: fhand = open('teksts.txt')
+
+In [30]: inp = fhand.read()
+
+In [31]: print(len(inp))
+27
+
+In [32]: print(inp[:20])
+teksts
+Janis
+teksts
+
+
+In [33]: fhand = open('teksts.txt')
+
+In [34]: inp = fhand.read()
+
+In [35]: print(len(inp))
+71
+
+In [36]: print(inp[:20])
+teksts ir uzrakstits
+
+In [37]: for line in fhand:
+   ....:     if line.startswith('Hell:'):
+   ....:         print(line)
+   ....:         
+
+In [38]: print(line)
+Rebco1
+
+
+In [39]: fhand = open('teksts.txt')
+
+In [40]: for line in fhand:
+   ....:     if line.startswith('hell:'):
+   ....:         print(line)
+   ....:         
+
+In [41]: print(line)
+Rebco1
+
+
+In [42]: for line in fhand:
+   ....:     if line.startswith('hello'):
+   ....:         print(line)
+   ....:         
+
+In [43]: print(line)
+Rebco1
+
+
+In [44]: for line in fhand:
+   ....:     if line.startswith('hello')
+   ....:     
+  File "<ipython-input-44-830f37df0ca4>", line 2
+    if line.startswith('hello')
+                               ^
+SyntaxError: invalid syntax
+
+
+In [45]: fhand = open('teksts.txt')
+
+In [46]: for line in fhand:
+   ....:     if line.startswith('hello:
+   ....:     if line.startswit
+   ....:     
+  File "<ipython-input-46-cb1d7b4570e1>", line 2
+    if line.startswith('hello:
+                             ^
+SyntaxError: EOL while scanning string literal
+
+
+In [47]: fhand = open('teksts.txt')
+
+In [48]: for line in fhand:
+   ....:     if line.startswith('hello:'):
+   ....:         print(line)
+   ....:         
+hello: boys
+
+hello: girls
+
+hello: human
+
+hello: pets
+
+
+In [49]: for line in fhand:
+   ....:     line = line.rstrip()
+   ....:     if line startswith('hello:'):
+   ....:         print(line)
+   ....:         
+  File "<ipython-input-49-d5e2411d0ecd>", line 3
+    if line startswith('hello:'):
+                     ^
+SyntaxError: invalid syntax
+
+
+In [50]: for line in fhand:
+   ....:     line = line.rstrip()
+   ....:     if line.startswith('hello:'):
+   ....:         print(line)
+   ....:         
+
+In [51]: 
+
+In [51]: print(line)
+Rebco1
+
+
+In [52]: fhand = open('teksts.txt')
+
+In [53]: for line in fhand:
+   ....:     line = line.rstrip()
+   ....:     if line.startswith('hello:'):
+   ....:         print(line)
+   ....:         
+hello: boys
+hello: girls
+hello: human
+hello: pets
+
+In [54]: fhand = open('teksts.txt')
+
+In [55]: count = 0
+
+In [56]: for line in fhand:
+   ....:     count = count + 1
+   ....:     print('Line Count:',count)
+   ....:     
+('Line Count:', 1)
+('Line Count:', 2)
+('Line Count:', 3)
+('Line Count:', 4)
+('Line Count:', 5)
+('Line Count:', 6)
+('Line Count:', 7)
+('Line Count:', 8)
+
+In [57]: fhand = open('teksts.txt')
+
+In [58]: for line in fhand:
+   ....:     line = line.rstrip()
+   ....:     if not line.startswith('hello:'):
+   ....:         continue
+   ....:     print(line)
+   ....:     
+hello: boys
+hello: girls
+hello: human
+hello: pets
+
