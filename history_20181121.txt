@@ -1,0 +1,245 @@
+    1  ls -l
+    2  mkdir ManaMape
+    3  ls -l
+    4  rmdir ManaMape/
+    5  ls- l
+    6  ls -l
+    7  mkdir ManaMape
+    8  cd ManaMape/
+    9  mkdir ManaApakshMape
+   10  ls -l
+   11  cd
+   12  ls -l
+   13  cd  ManaMape/
+   14  cd ManaApakshMape/
+   15  pwd
+   16  cd
+   17  rmdir r ManaMape/
+   18  rmdir ManaApakshMape
+   19  cd ManaMape/
+   20  rmdir ManaApakshMape/
+   21  cd
+   22  rmdir ManaMape/
+   23  ls -l
+   24  echo "Teksts"
+   25  teksts
+   26  echo "Teksts"
+   27  echo "Teksts
+   28  Teksts
+   29  "
+   30  "Teksts"
+   31  "
+   32  Teksts
+   33  "
+   34  "Teksts\nTeksts\nTeksts"
+   35  -e
+   36  echo -e "Teksts\nTeksts\nTeksts"
+   37  -a
+   38  echo "Teksts" > fails1.txt
+   39  ls -l
+   40  cat fails1.txt
+   41  more fails1.txt
+   42  less fails1.txt
+   43  echo "Papildus teksts" > fails1.txt
+   44  ls -l
+   45  cat fails1.txt
+   46  echo "Teksts" > fails1.txt
+   47  cat fails1.txt
+   48  echo "Papildus teksts" >> fails1.txt
+   49  cat fails1.txt
+   50  ls -l
+   51  nano fails1.txt
+   52  ls -l
+   53  nano fails1.txt
+   54  ls -l
+   55  cmod 530 fails1.txt
+   56  chmod 504 fails1.txt
+   57  ls -l
+   58  echo "Teksts" > fails1.txt
+   59  nano fails1.txt
+   60  ls -l
+   61  echo "Teksts" > ../fails1.txt
+   62  cp fails1.txt fails101.txt
+   63  ls -l
+   64  mv *1*.txt Music/
+   65  ls -l
+   66  cd Music/
+   67  ls -l
+   68  mv fails1.txt ../fails102.txt
+   69  ls -l
+   70  cd
+   71  ls -l
+   72  mv fails102.txt fails103.txt
+   73  ls -l
+   74  mv fails103.txt fails2.txt
+   75  ls -l
+   76  cat fails2.txt
+   77  mv fails3.txt fails2.txt
+   78  ls -l
+   79  ls Music/
+   80  ls -la Music/
+   81  pwd
+   82  rm Music/fails101.txt
+   83  ls -la Music/
+   84  ls -l]
+   85  ls -l
+   86  rm fails*.txt
+   87  ls -l
+   88  whoami
+   89  man rm
+   90  history > history_20180917.txt
+   91  ls -l
+   92  less history
+   93  less history_20180917.txt 
+   94  q
+   95  nano mans_skripts.sh
+   96  ls -l
+   97  cat mans_skripts.sh 
+   98  history
+   99  cat /bin/history
+  100  cat /bin/ls
+  101  history 
+  102  cat /bin/ls
+  103  ls
+  104  echo $PATH
+  105  pwd
+  106  ls -l
+  107  ./mans_skripts.sh
+  108  pwd
+  109  /home/user/mans_skripts.sh
+  110  /home/janis/mans_skripts.sh
+  111  ~/mans_skripts.sh
+  112  chmod 764 mans_skripts.sh 
+  113  ls -l
+  114  echo $PATH
+  115  pwd
+  116  PATH-$PATH:/home/janis
+  117  PATH-$PATH:~
+  118  echo $PATH
+  119  PATH=$PATH:~
+  120  echo $PATH
+  121  ls -l
+  122  mans_skripts.sh 
+  123  ls -l
+  124  mans_skripts.sh 
+  125  git clone https://github/janismuiznieks/RTR105
+  126  sudo apt-get install git
+  127  sudo apt-get install git --fix missing
+  128  sudo apt-get install git -- fix miss
+  129  ping 213.175.92.22
+  130  ping www.google.com
+  131  ping 213.175.92.22
+  132  ping www.google.com
+  133  sudo gedit /etc/resolv.conf
+  134  ping 213.175.92.22
+  135  sudo apt-get install git
+  136  git clone https://github/janismuiznieks/RTR105
+  137  git clone https://github.com/janismuiznieks/RTR105
+  138  ls -l
+  139  mv mans_skripts.sh  RTR105/
+  140  ls
+  141  ls -l
+  142  RTR105/ ls -l
+  143  cd RTR105/
+  144  ls -l
+  145  nano  readme.md
+  146  pwd
+  147  nano  readme.md
+  148  cd
+  149  RTR105/
+  150  nano readme.md
+  151  ls -l
+  152  RTR105/
+  153  ls -l
+  154  RTR105/
+  155  ~
+  156  pwd
+  157  RTR105/
+  158  pwd
+  159  RTR105
+  160  cd RTR105/
+  161  ls -l
+  162  nano readme.md
+  163  pwd
+  164  nano README.md
+  165  mddir
+  166  history
+  167  nano README.md
+  168  nano  git-upload
+  169  ls -l
+  170  chmod 764 git-upload
+  171  ls -l
+  172  history
+  173  history > history_20180926.txt
+  174  ls -l
+  175  ./git-upload 20180926_13_55
+  176  ./git-upload 20180926_13_57
+  177  nano  git-upload
+  178  history
+  179  ./git-upload 20180926_14_01
+  180  esesmu lohs
+  181  ./git-upload 20180926_14_08
+  182  nano git-upload
+  183  ./git-upload 20180926_14_08
+  184  nano readme
+  185  nano  git-upload
+  186  nano README.md
+  187  echo
+  188  ls -l
+  189  $echo
+  190  $ECHO
+  191  $PATH
+  192  PATH
+  193  $pth
+  194  $path
+  195  $PATH
+  196  cd home
+  197  vd
+  198  cd
+  199  cd music
+  200  ls -l
+  201  cd Music/
+  202  cd Mape
+  203  `
+  204  ~
+  205  q
+  206  cd
+  207  Music
+  208  `
+  209  ~
+  210  cd
+  211  cd Mape/
+  212  ls -l
+  213  cd MapeMapee/
+  214  ls -l
+  215  cd
+  216  sleep
+  217  nano dialogs.py
+  218  git clone https://github.com/janismuiznieks/RTR105
+  219  python dialogs.py 
+  220  git upload https://github/janismuiznieks/RTR105
+  221  ./git-upload https://github.com/janismuiznieks/RTR105
+  222  git-upload https://github.com/janismuiznieks/RTR105
+  223  ~
+  224  fsf
+  225  q
+  226  Q
+  227  exit
+  228  firefox&
+  229  idle
+  230  rm -rf RTR105/
+  231  git clone https://github.com/JanisMuiznieks/RTR105
+  232  cd RTR105/
+  233  idle
+  234  ja
+  235  Q
+  236  cd
+  237  import numpy
+  238  sudo apt-get install python numphy
+  239  sudo apt-get install python-numpy
+  240  idle
+  241  cd RTR105/
+  242  idle
+  243  sudo apt-get install python-matplotlib
+  244  idle
+  245  history > history_20181121.txt
